@@ -1,6 +1,7 @@
 {
   "files.exclude": {
     "**/.git": true,
+    ".screenshots": true,
     ".angular": true,
     ".editorconfig": true,
     ".eslintignore": true,
@@ -12,7 +13,7 @@
     "dist": true,
     "node_modules": true,
     "package-lock.json": true,
-    "package.json": false,
+    "package.json": true,
     "readme.md": true,
     "src/index.html": true,
     "tsconfig.app.json": true,
