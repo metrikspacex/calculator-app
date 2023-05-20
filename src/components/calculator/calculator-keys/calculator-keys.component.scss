@@ -1,0 +1,112 @@
+:host {
+  background-color: var(--calculator-keys-bg);
+  border-radius: 1rem;
+  column-gap: 1.3rem;
+  display: grid;
+  grid-area: calc-keys;
+  grid-template-columns: repeat(4, 6rem);
+  grid-template-rows: repeat(5, 6.4rem);
+  height: 100%;
+  padding: 2.4rem;
+  row-gap: 1.3rem;
+  width: 100%;
+  & > button {
+    -webkit-touch-callout: none;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    outline-color: transparent;
+    user-select: none;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+button.decimal {
+  background-color: var(--calculator-key-bg-decimal);
+  box-shadow: inset 0 -0.4rem 0 var(--calculator-keys-shadow-decimal);
+  color: var(--calculator-key-text-clr-decimal);
+  & > span {
+    font-family: var(--font);
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.053rem;
+    line-height: 2.9rem;
+  }
+}
+
+button.delete {
+  background-color: var(--calculator-key-bg-delete);
+  box-shadow: inset 0 -0.4rem 0 var(--calculator-keys-shadow-delete);
+  color: var(--calculator-key-text-clr-delete);
+  & > span {
+    font-family: var(--font);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.033rem;
+    line-height: 1.8rem;
+  }
+}
+
+button.equal {
+  background-color: var(--calculator-key-bg-equal);
+  box-shadow: inset 0 -0.4rem 0 var(--calculator-keys-shadow-equal);
+  color: var(--calculator-key-text-clr-equal);
+  grid-column: 3 / 5;
+  & > span {
+    font-family: var(--font);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.033rem;
+    line-height: 1.8rem;
+  }
+}
+
+button.number {
+  background-color: var(--calculator-key-bg-number);
+  box-shadow: inset 0 -0.4rem 0 var(--calculator-keys-shadow-number);
+  color: var(--calculator-key-text-clr-number);
+  & > span {
+    font-family: var(--font);
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.053rem;
+    line-height: 2.9rem;
+  }
+}
+
+button.operator {
+  background-color: var(--calculator-key-bg-operator);
+  box-shadow: inset 0 -0.4rem 0 var(--calculator-keys-shadow-operator);
+  color: var(--calculator-key-text-clr-operator);
+  & > span {
+    font-family: var(--font);
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.053rem;
+    line-height: 2.9rem;
+  }
+}
+
+button.reset {
+  background-color: var(--calculator-key-bg-reset);
+  box-shadow: inset 0 -0.4rem 0 var(--calculator-keys-shadow-reset);
+  color: var(--calculator-key-text-clr-reset);
+  grid-column: 1 / 3;
+  & > span {
+    font-family: var(--font);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.033rem;
+    line-height: 1.8rem;
+  }
+}

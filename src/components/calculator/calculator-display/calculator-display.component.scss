@@ -1,0 +1,26 @@
+:host {
+  background-color: var(--calculator-display-bg);
+  border-radius: 1rem;
+  display: block;
+  grid-area: calc-display;
+  height: 100%;
+  padding: 0 2.4rem;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+h1 {
+  color: var(--calculator-display-text-color);
+  font-family: var(--font);
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  height: max-content;
+  letter-spacing: -0.67px;
+  line-height: 3.7rem;
+  margin-bottom: 2.2rem;
+  margin-left: auto;
+  margin-top: 2.9rem;
+  text-align: right;
+  width: max-content;
+}

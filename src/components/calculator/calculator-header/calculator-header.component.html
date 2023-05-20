@@ -1,0 +1,32 @@
+<h1 class="title">calc</h1>
+<div class="theme">
+  <h1 class="theme-text">theme</h1>
+  <div class="theme-switcher">
+    <div class="theme-switcher-count">
+      <span>1</span>
+      <span>2</span>
+      <span>3</span>
+    </div>
+    <div class="theme-switcher-toggler" data-toggle="buttons">
+      <span class="visualize" [@theme]="this.currentTheme()"> </span>
+      <input
+        class="theme-1"
+        id="theme-1"
+        name="theme-1"
+        type="radio"
+        (click)="this.switchTheme('theme-1')" />
+      <input
+        class="theme-2"
+        id="theme-2"
+        name="theme-2"
+        type="radio"
+        (click)="this.switchTheme('theme-2')" />
+      <input
+        class="theme-3"
+        id="theme-3"
+        name="theme-3"
+        type="radio"
+        (click)="this.switchTheme('theme-3')" />
+    </div>
+  </div>
+</div>
