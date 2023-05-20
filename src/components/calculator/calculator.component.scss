@@ -13,4 +13,10 @@
     ". ............ .";
   height: 66.7rem;
   width: 37.5rem;
+  @media (width >=768px) {
+    grid-template-columns: 0 1fr 0;
+    grid-template-rows: 0 4.4rem 3.2rem 12.8rem 2.4rem 48rem 0;
+    height: 70.8rem;
+    width: 54rem;
+  }
 }

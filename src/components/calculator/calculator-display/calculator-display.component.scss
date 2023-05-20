@@ -23,4 +23,11 @@ h1 {
   margin-top: 2.9rem;
   text-align: right;
   width: max-content;
+  @media (width >=768px) {
+    font-size: 5.6rem;
+    letter-spacing: -0.93px;
+    line-height: 5.2rem;
+    margin-bottom: 3.6rem;
+    margin-top: 4rem;
+  }
 }

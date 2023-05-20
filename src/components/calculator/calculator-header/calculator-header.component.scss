@@ -86,6 +86,10 @@ div.theme {
         outline: 0;
         position: absolute;
         width: 1.6rem;
+        &:hover {
+          background: var(--calculator-header-toggle-button-hover);
+          cursor: pointer;
+        }
         &#theme-1 {
           left: 0.5rem;
         }

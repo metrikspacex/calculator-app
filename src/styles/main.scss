@@ -18,6 +18,7 @@
   --calculator-header-bg: #3a4663;
   --calculator-header-text-color: #fff;
   --calculator-header-toggle-bg: #242d44;
+  --calculator-header-toggle-button-hover: #f96b5b;
   --calculator-header-toggle-button: #d03f2f;
 
   // Calculator Display
@@ -34,13 +35,17 @@
   --calculator-keys-shadow-decimal: #b3a497;
 
   // Delete
+  --calculator-key-bg-delete-hover: #a2b2e1;
   --calculator-key-bg-delete: #647198;
   --calculator-key-text-clr-delete: #fff;
+  --calculator-keys-shadow-delete-hover: #414e73;
   --calculator-keys-shadow-delete: #414e73;
 
   // Equal
+  --calculator-key-bg-equal-hover: #f96b5b;
   --calculator-key-bg-equal: #d03f2f;
   --calculator-key-text-clr-equal: #fff;
+  --calculator-keys-shadow-equal-hover: #93261a;
   --calculator-keys-shadow-equal: #93261a;
 
   // Numbers
@@ -54,8 +59,10 @@
   --calculator-keys-shadow-operator: #b3a497;
 
   // Reset
+  --calculator-key-bg-reset-hover: #a2b2e1;
   --calculator-key-bg-reset: #647198;
   --calculator-key-text-clr-reset: #fff;
+  --calculator-keys-shadow-reset-hover: #414e73;
   --calculator-keys-shadow-reset: #414e73;
 }
 
@@ -66,6 +73,7 @@
   --calculator-header-bg: #e6e6e6;
   --calculator-header-text-color: #36362C;
   --calculator-header-toggle-bg: #d2cdcd;
+  --calculator-header-toggle-button-hover: #ff8a38;
   --calculator-header-toggle-button: #c85402;
 
   // Calculator Display
@@ -85,10 +93,14 @@
   --calculator-key-bg-delete: #378187;
   --calculator-key-text-clr-delete: #fff;
   --calculator-keys-shadow-delete: #1b6066;
+  --calculator-key-bg-delete-hover: #62b5bc;
+  --calculator-keys-shadow-delete-hover: #1b6066;
 
   // Equal
+  --calculator-key-bg-equal-hover: #ff8a38;
   --calculator-key-bg-equal: #c85402;
   --calculator-key-text-clr-equal: #fff;
+  --calculator-keys-shadow-equal-hover: #873901;
   --calculator-keys-shadow-equal: #873901;
 
   // Numbers
@@ -102,8 +114,10 @@
   --calculator-keys-shadow-operator: #a79e91;
 
   // Reset
+  --calculator-key-bg-reset-hover: #62b5bc;
   --calculator-key-bg-reset: #378187;
   --calculator-key-text-clr-reset: #fff;
+  --calculator-keys-shadow-reset-hover: #1b6066;
   --calculator-keys-shadow-reset: #1b6066;
 }
 
@@ -114,6 +128,7 @@
   --calculator-header-bg: #17062a;
   --calculator-header-text-color: #ffe53d;
   --calculator-header-toggle-bg: #1e0936;
+  --calculator-header-toggle-button-hover: #93fff8;
   --calculator-header-toggle-button: #00ded0;
 
   // Calculator Display
@@ -130,13 +145,17 @@
   --calculator-keys-shadow-decimal: #881c9e;
 
   // Delete
+  --calculator-key-bg-delete-hover: #8631af;
   --calculator-key-bg-delete: #56077c;
   --calculator-key-text-clr-delete: #fff;
+  --calculator-keys-shadow-delete-hover: #be15f4;
   --calculator-keys-shadow-delete: #be15f4;
 
   // Equal
+  --calculator-key-bg-equal-hover: #93fff8;
   --calculator-key-bg-equal: #00ded0;
   --calculator-key-text-clr-equal: #1a2327;
+  --calculator-keys-shadow-equal-hover: #6cf9f1;
   --calculator-keys-shadow-equal: #6cf9f1;
 
   // Numbers
@@ -150,8 +169,10 @@
   --calculator-keys-shadow-operator: #881c9e;
 
   // Reset
+  --calculator-key-bg-reset-hover: #8631af;
   --calculator-key-bg-reset: #56077c;
   --calculator-key-text-clr-reset: #fff;
+  --calculator-keys-shadow-reset-hover: #be15f4;
   --calculator-keys-shadow-reset: #Be15f4;
 }
 
